@@ -1,9 +1,6 @@
-js-y86
-======
+# js-y86
 
-js-y86 is an assembler and simulator written in Javascript.
-
-It supports:
+js-y86 is an assembler and simulator written in Javascript. It supports:
 
 * All of the original y86 instructions plus cmovX
 * Breakpoints via `brk`
@@ -13,10 +10,12 @@ It supports:
 * Syntax highlighting
 * See your (hopefully useful) compile errors as you type
 
-This [current version](https://github.com/orel33/js-y86/) includes some minor but useful modifications:
+[See it in action](https://xsznix.github.io/js-y86/) or [read the documentation on the Wiki](https://github.com/xsznix/js-y86/wiki).
 
-* Add new y86 instructions (iaddl, isubl, iandl, ixorl), that is arithmetic operation with an immediate value
-* Update the syntax of instructions mrmovl and rmmovl to allow both D(rB), D and (rB) with D as tag or number. 
+## This Fork
 
-It is a GutHub fork of this [previous version](https://github.com/xsznix/js-y86/).
+This version is available on <https://github.com/orel33/js-y86> and is in action at [University of Bordeaux](http://dept-info.labri.fr/ENSEIGNEMENT/archi/js-y86/index.html). This is GitHub fork of the origin repository at <https://github.com/xsznix/js-y86/>.
 
+## License
+
+This project is licensed under the terms of the MIT license.
