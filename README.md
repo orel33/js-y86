@@ -27,7 +27,10 @@ js-y86 forks have been spottted at:
 * [Y86 pipeline emulator by Shu Ding](http://y86.js.org/)
 * [Another Y86 pipeline simulator by Linghao Zhang](http://dnc1994.github.io/Y86-Simulator/)
 
+This version is available on <https://github.com/orel33/js-y86> and is in action at [University of Bordeaux](http://dept-info.labri.fr/ENSEIGNEMENT/archi/js-y86/index.html). This is a GitHub fork of the origin repository at <https://github.com/xsznix/js-y86/>.
+
 ## License
+
 It is a GitHub fork of this [previous version](https://github.com/xsznix/js-y86/).
 
 This project is licensed under the terms of the MIT license.
