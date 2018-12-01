@@ -14,7 +14,7 @@ js-y86 is an assembler and simulator written in Javascript. It supports:
 
 ## This Fork
 
-This version is available on <https://github.com/orel33/js-y86> and is in action at [University of Bordeaux](http://dept-info.labri.fr/ENSEIGNEMENT/archi/js-y86/index.html). This is GitHub fork of the origin repository at <https://github.com/xsznix/js-y86/>.
+This version is available on <https://github.com/orel33/js-y86> and is in action at [University of Bordeaux](http://dept-info.labri.fr/ENSEIGNEMENT/archi/js-y86/index.html). This is a GitHub fork of the origin repository at <https://github.com/xsznix/js-y86/>.
 
 ## License
 
