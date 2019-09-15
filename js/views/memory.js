@@ -137,6 +137,10 @@ var MemWordView = Backbone.View.extend({
 		if (this.lastValue !== newValue) {
 			this.lastValue = newValue;
 			this.$('.value').text(padHex(newValue, 8));
+			if (newValue !== 0)
+				this.$('.value').addClass('modified');
+			else
+				this.$('.value').removeClass('modified');
 		}
 	}
 });

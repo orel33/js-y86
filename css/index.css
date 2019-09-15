@@ -407,6 +407,10 @@ h3.status_header {
 	color: #16a085;
 }
 
+.memory .modified {
+    color: #4444ff;
+}
+
 @media screen and (max-width: 1023px) {
 	.registers .register .value_dec {
 		display: none;
