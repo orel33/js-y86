@@ -224,7 +224,7 @@ function ASSEMBLE (raw, errorsOnly) {
 		result[i][0] = ['0x' + padHex(counter, 4)];
 
 		// Look for symbol and add to symbols
-		sym = line.match(/(^.*?):/i);
+		sym = line.match(/(^.*?)[ \t]*:/i);
 		if (sym) {
 			symbols[sym[1]] = counter;
 			// Delete symbol from line
