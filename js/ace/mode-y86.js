@@ -17,7 +17,7 @@ define("ace/mode/y86_highlight_rules",
 				"regex": /\.(?:pos|align|long)/
 			}, {
 				"token": ["entity.name.function", "symbol"],
-				"regex": /\w+:/
+				"regex": /\w+[ \t]*:/
 			}, {
 				"token": "keyword.control",
 				"regex": /halt|nop|rrmovl|cmovle|cmovl|cmove|cmovne|cmovge|cmovg|irmovl|rmmovl|mrmovl|addl|subl|xorl|andl|jmp|jle|jl|je|jne|jge|jg|call|ret|pushl|popl|iaddl|isubl|iandl|ixorl|brk|brkle|brkl|brke|brkne|brkge|brkg/
